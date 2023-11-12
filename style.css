@@ -372,7 +372,7 @@ main .hero .hero_details form button:hover {
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 11px;
+  gap: 8px;
 }
 
 .footer section:first-of-type div:first-of-type i,
@@ -520,11 +520,16 @@ main .hero .hero_details form button:hover {
 
   .footer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: min-content;
-    height: 80vh;
+    grid-row-gap: 0rem;
+    height: 100%;
     font-size: 14px;
     
+  }
+
+  .footer section img {
+    padding-top: 1rem;
   }
 
   /* .footer ul:last-of-type, .footer section:last-of-type {
