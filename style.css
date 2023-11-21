@@ -544,12 +544,18 @@ main .hero .hero_details form button:hover {
 
   @media only screen and (min-width: 741px) and (max-width: 900px) {
     .CTA_form button {
-      width: 65% !important; 
-      /* padding: 1rem 2rem; */
+    width: 65% !important;
+    /* padding: 1rem 2rem; */
     }
-
+      
     main .hero .hero_details form button {
-      width: 40% !important;
-  }
+    width: 40% !important;
+    }  
+    
+    .footer {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center center;
+    }
+      
 }
 /* Media Query */
